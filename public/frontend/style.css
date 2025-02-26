@@ -1,0 +1,869 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.accent {
+    background: transparent linear-gradient(180deg, #F8B653 0%, #DF8600 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+body {
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.btn.gradint-outline {
+    border: 1px solid #FF9900;
+    border-radius: 25px;
+    opacity: 1;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 18px 8px 18px;
+    font-family: 'Jost', sans-serif;
+    margin-right: 10px;
+}
+
+.btn.gradint-outline:hover {
+    border: 1px solid #FF9900;
+    border-radius: 25px;
+    opacity: 1;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 18px 8px 18px;
+    font-family: 'Jost', sans-serif;
+    margin-right: 10px;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.btn.gradint {
+    background: transparent linear-gradient(180deg, #F8B653 0%, #DF8600 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    border-radius: 31px;
+    font-size: 14px;
+    opacity: 1;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+.btn.gradint:hover {
+    background: transparent linear-gradient(180deg, #F8B653 0%, #DF8600 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    border-radius: 31px;
+    font-size: 14px;
+    opacity: 1;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Jost', sans-serif;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+
+.link-dark {
+    color: #ffffff !important;
+}
+
+.link-dark:focus,
+.link-dark:hover {
+    color: #f0a739 !important;
+}
+
+li {
+    padding: 0px 15px 0px 15px;
+    font-family: 'Jost', sans-serif;
+}
+
+.banner-text {
+    color: white;
+    font-family: 'Jost';
+
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.col-4.banner-text .content {
+    width: 140%;
+    z-index: 9 !important;
+}
+
+.banner .banner-img img {
+    width: 115%;
+}
+
+.side-heading {
+    font-family: 'Jost';
+    font-weight: 700;
+    color: transparent;
+    font-size: 160px;
+    transform: rotate(-90deg) translateX(440px);
+    position: absolute;
+    left: -2.3em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffffff9e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    letter-spacing: 10px;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.side2-heading {
+    font-family: 'Jost';
+    font-weight: 700;
+    color: transparent;
+    font-size: 160px;
+    transform: rotate(-90deg) translateX(450px);
+    position: absolute;
+    right: -0.6em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffffff9e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    letter-spacing: 10px;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.side3-heading {
+    font-family: 'Jost';
+    font-weight: 700;
+    color: transparent;
+    font-size: 160px;
+    transform: rotate(-90deg) translateX(300px);
+    position: absolute;
+    right: -0.6em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #ffffff9e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    letter-spacing: 10px;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/*///*/
+
+.about-text .content {
+    width: 140%;
+    z-index: 9 !important;
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+.about-text .content {
+    width: 100%;
+    color: #fff;
+    padding: 0px 100px 0px 20px;
+
+}
+
+.banner .about-img img {
+    width: 100%;
+}
+
+.heading1 {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+}
+
+.heading2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+
+.heading3 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+
+
+.heading4 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+
+
+.heading5 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Jost', sans-serif;
+}
+
+.heading6 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-family: 'Jost';
+}
+
+
+/*////*/
+.team-box {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.item-box .img-box-row {
+    border: 1px solid #FF9900;
+    padding: 20px 30px 20px;
+    border-radius: 20px;
+    /* margin-top: 100px; */
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.item-box .img-box-row:hover {
+    border: 1px solid #ffffff;
+    padding: 20px 30px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: black;
+    background-color: #fff;
+    transform: scale(1.08);
+    transition: 0.5s ease-in-out;
+}
+
+ul li {
+    display: -webkit-inline-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    padding-right: 72px !important;
+    padding: 0;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+button.tablinks {
+    padding: 25px 55px 25px 55px;
+    font-family: 'Jost';
+    background-color: #ffffff00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+button.tablinks:hover {
+    padding: 25px 55px 25px 55px;
+    font-family: 'Jost';
+    background-color: #ffffff2b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+
+    transform: scale(1.08);
+    transition: 0.5s ease-in-out;
+}
+
+button.tablinks.active {
+    padding: 25px 55px 25px 55px;
+    font-family: 'Jost';
+    background-color: #ffffff2b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/*///*/
+
+
+.tab-section {
+    background-color: #ffffff2b;
+    padding: 10px 0px 50px 0px;
+    border-radius: 20px;
+}
+
+.sports-tabs {
+    margin-top: 60px;
+}
+
+.sports-bet {
+    padding: 8px 5px 8px 9px;
+    margin-top: 25px;
+    border-radius: 178px;
+    background: transparent linear-gradient(180deg, #F6B34E 0%, #E18A06 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    font-family: 'Jost';
+}
+
+.date {
+    background-color: white;
+    padding: 45px 25px;
+    border-radius: 100px;
+    height: 140px;
+    width: 146px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Jost';
+    font-weight: 500;
+}
+
+.team {
+    text-align: center;
+}
+
+.points {
+    text-align: center;
+}
+
+.Count {
+    background-color: white;
+    color: #FF9900;
+    padding: 50px 25px;
+    border-radius: 100px;
+    height: 140px;
+    width: 140px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Jost';
+    border: 5px solid #002647;
+}
+
+.col-1.cardz {
+    align-content: center !important;
+    text-align: start;
+    margin: 0px 35px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.col-1.num {
+    background-color: white;
+    color: #FF9900;
+    padding: 39px 22px;
+    border-radius: 100px;
+    height: 43px;
+    width: 85px;
+    line-height: 0px;
+    text-align: center;
+    font-family: 'Jost';
+    border: 3px solid #002647;
+    margin: 10px;
+}
+
+.Betting-btn {
+    background: transparent linear-gradient(180deg, #F8B653 0%, #DF8600 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    border-radius: 31px;
+    font-size: 15px;
+    opacity: 1;
+    padding: 15px 38px 15px 38px;
+    font-family: 'Jost', sans-serif;
+    border: 1px solid;
+    margin: 0px 0px 0px 30px;
+}
+
+.Betting-btn:hover {
+    background: transparent linear-gradient(180deg, #F8B653 0%, #DF8600 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    border-radius: 31px;
+    font-size: 15px;
+    opacity: 1;
+    padding: 15px 38px 15px 38px;
+    font-family: 'Jost', sans-serif;
+    border: 1px solid;
+    margin: 0px 0px 0px 30px;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+
+
+
+.heading5 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    flex-direction: row;
+    font-family: 'Jost', sans-serif;
+    display: inline;
+    float: right;
+    margin-bottom: 0px !important;
+    line-height: 72px;
+}
+
+.heading2 {
+    display: inline;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+}
+
+.Result-icon {
+    text-align: center;
+    color: white;
+    font-family: 'Jost';
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #e59214;
+    border-radius: 20px;
+    background-color: #ffffff2b;
+}
+
+.icon-effact:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.Playing-update {
+    background-color: #ffffff2b;
+    padding: 10px;
+    border-radius: 89px;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 10px 25px 10px;
+    align-items: center;
+}
+
+.testimonials {
+    padding: 50px 200px 0px 200px;
+}
+
+
+.matches-update {
+    padding: 120px 0px;
+}
+
+.sub {
+    background-image: url(image/sub-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 100px;
+    margin: 120px 0px 0px 0px;
+    font-family: 'Jost';
+}
+
+.btn-sub {
+    background-color: white;
+    color: #FF9900;
+    border-radius: 31px;
+    font-size: 18px;
+    font-weight: 800;
+    opacity: 1;
+    padding: 15px 45px 15px 45px;
+    font-family: 'Jost', sans-serif;
+    border: 1px solid;
+    margin: 10px 0px 0px 0px;
+}
+
+footer {
+    margin: 150px 0px;
+}
+
+.foot-txt {
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    line-height: 2;
+}
+
+.about-me {
+    padding-right: 60px;
+}
+
+input#email {
+    height: 45px;
+    width: 330px;
+    margin-bottom: 5px;
+}
+
+ul.socialization li {
+    display: inline;
+    padding: 0px !important;
+}
+
+
+footer .container {
+    border-top: 2px solid #fff;
+}
+
+
+.copy-right {
+    padding-top: 60px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Jost';
+}
+
+/* About Us Page */
+.banner1 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.test-div {
+    margin-top: 100px;
+}
+
+.banner-1-img {
+    width: 115% !important;
+}
+
+.foot-txt a {
+    color: #c2c2c2da;
+}
+
+/* About Us Page */
+
+/* Contact Page */
+.phone-icon {
+    width: 20%;
+}
+
+.phone {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.contact-div {
+    text-align: center;
+    border: 1px solid #e59214;
+    border-radius: 20px;
+    background-color: #ffffff2b;
+    padding: 50px 0;
+}
+
+.contact-div a {
+    text-decoration: none;
+}
+
+.main-contact-div {
+    margin-top: 100px;
+}
+
+.main-contact-div-2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-contact-div-2 .container {
+    border: 1px solid #e59214;
+    border-radius: 20px;
+    background-color: #ffffff2b;
+    width: 60%;
+    padding: 50px;
+}
+
+.form-control {
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.main-contact-div-2 textarea {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.submit-btn {
+    background: transparent linear-gradient(180deg, #F8B653 0%, #DF8600 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    border-radius: 31px;
+    font-size: 15px;
+    opacity: 1;
+    border: 2px solid;
+    width: 200px;
+    margin-top: 10px;
+    height: 60px;
+}
+
+.privacy-inner-div {
+    margin-top: 100px;
+}
+
+.pr-head {
+    color: #fff;
+    font-size: 30px;
+}
+
+.pr-text {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Contact Page */
+
+/* FAQ Page */
+.faq-div {
+    margin-top: 100px;
+}
+
+.accordion-button {
+    font-size: 20px;
+}
+
+.main-contact-div-2 p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+.main-contact-div-2 p a {
+    color: #e59214;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+/* FAQ Page */
+
+
+@media only screen and (max-width:767px) {
+    .team-box .row {
+        flex-wrap: wrap;
+    }
+
+    .tab {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .testimonials {
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .sub {
+        background-size: cover;
+        padding: 100px 0;
+        border-radius: 30px;
+    }
+
+    .offcanvas {
+        max-width: 80%;
+    }
+
+    .secondary-1 {
+        background-color: #000 !important;
+        color: #fff;
+    }
+
+    .num,
+    .cardz,
+    .Count,
+    .side-heading,
+    .side2-heading {
+        display: none !important;
+    }
+
+    .Betting-btn {
+        margin: 0;
+        padding: 15px 30px 15px 30px;
+    }
+
+    .tablinks {
+        padding: 20px 30px 20px 30px !important;
+    }
+
+    .date {
+        height: 125px;
+        width: 125px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .date p {
+        margin: 0;
+    }
+
+    .points {
+        margin-left: 15px;
+    }
+
+    .foot-txt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot-txt li {
+        margin-bottom: 10px;
+    }
+
+    .logo-footer {
+        text-align: left !important;
+    }
+
+    .heading4 {
+        margin-top: 25px;
+    }
+
+    .icon-effact {
+        margin-top: 20px;
+    }
+
+    .Result-icon {
+        margin: 30px 0;
+        padding: 50px 0;
+    }
+
+    .heading1 {
+        font-size: 30px;
+    }
+
+    .banner {
+        margin-top: 50px;
+    }
+
+    .banner .banner-img img {
+        width: 100% !important;
+    }
+
+    .about-text .content {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .heading2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .about .banner {
+        flex-direction: column-reverse;
+    }
+
+    .about-p {
+        margin-top: 10px;
+    }
+
+    .img-box-row {
+        margin-bottom: 15px;
+    }
+
+    .heading5 {
+        float: none;
+        line-height: 32px;
+    }
+
+    .heading3 {
+        font-size: 28px;
+    }
+
+    .icon-effact img {
+        width: 45%;
+        height: 50%;
+        object-fit: contain;
+    }
+
+    .icon-effact h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .Playing-update img {
+        width: 100%;
+    }
+
+    footer .container {
+        padding-top: 30px;
+    }
+
+    .copy-right {
+        padding-top: 35px;
+    }
+
+    .pr-head {
+        font-size: 24px;
+    }
+
+    .contact-div {
+        margin-bottom: 15px;
+    }
+
+    .main-contact-div-2 .container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .faq-col-2 {
+        margin-top: 10px;
+    }
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
+footer {
+    margin: 150px 0px 0 0;
+}
+
+.logo-footer {
+    text-align: center;
+}
+
+.sports-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-txt a {
+    color: #fff;
+}
+
+.logo-footer {
+    text-align: center;
+    padding: 40px 0;
+}

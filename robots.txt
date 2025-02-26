@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Crawl-delay:3
+Sitemap:https://alan.ad-wize.com/index.php/sitemap.xml

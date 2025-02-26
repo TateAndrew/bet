@@ -1,0 +1,189 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/styles/style.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Dashboard</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="row">
+        <div class="col-2">
+          <div class="logo">
+            <img src="assets/images/logo.png"/>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="buttons">
+            <ul>
+              <li><a href="#" class="bets">BETS</a></li>
+              <li><a href="#" class="games">GAMES</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-5">
+            <form class="searcher">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search Games, People, And Groups..." aria-label="Search">
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+        </div>
+        <div class="col-1">
+          <ul class="icons">
+            <li><a href="#"><img src="assets/images/users.png"></a></li>
+            <li><a href="#"><img src="assets/images/bell.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /////////////Deshboard//////////// -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 admin-options">
+          <div class="admin-user">
+          <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <a href="#"><img width="100%" src="assets/images/admin.png"></a>
+              </div>
+              <div class="col-7">
+                <h4>Alan D.</h4>
+                <p>$444 Juice Savings</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="admin-nav">
+          <ul>
+            <li class="active"><a href="#">Balance Sheet</a><img src="assets/images/arrow.png"></li>
+            <li><a href="#">Stats</a><img src="assets/images/arrow.png"></li>
+            <li><a href="#">Friends</a><img src="assets/images/arrow.png"></li>
+            <li><a href="#">Groups</a><img src="assets/images/arrow.png"></li>
+            <li><a href="#">Contest</a><img src="assets/images/arrow.png"></li>
+            <li><a href="#">1 OUTSTANDING $30</a></li>
+            <li><a href="#">0 ACCEPTED</a></li>
+            <li><a href="#">0 IN ACTION</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">ACCOUNT</a></li>
+          </ul>
+          <a href="#" class="invite-btn">Invite Your Friends</a>
+        </div>
+        </div>
+        <div class="col-9">
+          <div class="card">
+            <div class="container">
+              <div class="row">
+                <div class="col-8">
+                  <!-- <h2 class="text-center p-3">Card with Tabs</h2> -->
+            <nav>
+              <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#mlb" type="button" role="tab" aria-controls="nav-home" aria-selected="true">MLB</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#wnba" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">WNBA</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#mma" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">MMA</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#soccer" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">SOCCER</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#pga" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PGA</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#wood" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">WOOD</button>
+              </div>
+            </nav>
+            <!-- nav -->
+                </div>
+                <div class="col-4">
+                  <nav>
+                    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                      <button class="nav-link2 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
+                      <button class="nav-link2" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">My Network</button>
+                      <a href="#"><button class="nav-link2" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="assets/images/hambur-button.png" alt="1"></button></a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade active show" id="mlb" role="tabpanel" aria-labelledby="nav-home-tab">
+                <h4>UPCOMING</h4>
+                <div class="item2">
+                  <div class="container">
+                    <div class="row value-row">
+                      <div class="col-1"><h5>6/12/23</h5><h5>3:40 AM</h5></div>
+                      <div class="col-2"></div>
+                      <div class="col-1"><h5>$75</h5></div>
+                      <div class="col-1"><h5>+1.6</h5></div>
+                      <div class="col-1"><img src="assets/images/bet.png"></div>
+                      <div class="col-1"><img src="assets/images/bet-casino.png"></div>
+                      <div class="col-1"><h5>+1.6</h5></div>
+                      <div class="col-1"><h5>$75.56</h5></div>
+                      <div class="col-1"><img src="assets/images/user-fav.png"></div>
+                      <div class="col-2"><a href="#" class="take-bet-btn">Take Bet</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+           <div class="tab-pane fade active show" id="mlb" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="item2">
+              <div class="container">
+                <div class="row value-row seco-raw">
+                  <div class="col-1"> <span><img src="assets/images/bet.png" width="90%"></div>
+                  <div class="col-1"><h5 class="secol-txt">@</h5></div>
+                  <div class="col-1"><img src="assets/images/bet-casino.png" width="90%"></div>
+                  <div class="col-6"></div>
+                  <div class="col-3"><h6 class="secol-txt">SAT 6/24 @ 3:30 AM</h6></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade active show" id="mlb" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="item">
+              <div class="container">
+                <div class="row value-row seco-raw">
+                  <div class="col-2"><a href="#" class="sec3-btn">Speard</a></div>
+                  <div class="col-1"><a href="#" class="sec3-btn">O/U</a></div>
+                  <div class="col-1"><a href="#" class="sec3-btn">ML</a></div>
+                  <div class="col-3"></div>
+                  <div class="col-2"><h6 class="'secol-txt">1 BET l $130</h6></div>
+                  <div class="col-3"><h6 class="'secol-txt">1.5pts +160 <span><img src="assets/images/item-arrow.png" /></span> 7.5pts</h6></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+              <div class="tab-pane fade" id="wnba" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p><strong>This is some placeholder content the Profile tab's associated content.</strong>
+                  Clicking another tab will toggle the visibility of this one for the next.
+                  The tab JavaScript swaps classes to control the content visibility and styling. You can use it with
+                  tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+              </div>
+              <div class="tab-pane fade" id="mma" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <p><strong>This is some placeholder content the Contact tab's associated content.</strong>
+                  Clicking another tab will toggle the visibility of this one for the next.
+                  The tab JavaScript swaps classes to control the content visibility and styling. You can use it with
+                  tabs, pills, and any other <code>.nav</code>-powered navigation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</html>
